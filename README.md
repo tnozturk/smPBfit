@@ -29,7 +29,7 @@ Note that the Matlab apps were designed in `Matlab2020b` version. Previous versi
 
 * Double click `PfluorPbgfitting.mlapp` to open.
 
-<img src="snap1.png" alt="" width="35"/>
+<img src="snap1.png" alt="" width="150"/>
 
 * Enter the path for the designated working directory under `Path to working directory`. This should be where the downloaded folder is saved. Example: `/Users/username/Documents/MATLAB/smPBfit/`
 
