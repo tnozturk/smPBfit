@@ -79,7 +79,7 @@ Push `read in data` button. The photobleaching data should now be appearing in t
     
     - $P_{bg}$ lower limit: The lower limit of $P_{bg}$ to fit the photobleaching data with
     
-    - $P_{bg}$ higher limit: The upper limit of $P_{fluor}$ to fit the photobleaching data with. $P_{fluor}$ = $P_{fluor}$+$P_{site}$ $P_{fluor}$ Therefore, $P_{fluor}$ should be greater than $P_{bg}$. We suggest that the upper limits for $P_{bg}$ and $P_{fluor}$ should be set to <0.5 and 1, respectively. 
+    - $P_{bg}$ higher limit: The upper limit of $P_{fluor}$ to fit the photobleaching data with. $P_{fluor}$ = $P_{fluor}$ + $P_{site}$ + $P_{fluor}$ Therefore, $P_{fluor}$ should be greater than $P_{bg}$. We suggest that the upper limits for $P_{bg}$ and $P_{fluor}$ should be set to <0.5 and 1, respectively. 
     
     - Radius distribution file: Select one of the files (these are found in the radii folder and they contain the probability distribution of liposome sizes, usually experimentally measured by cryo-EM)
     
