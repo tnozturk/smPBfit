@@ -29,11 +29,11 @@ Note that the Matlab apps were designed in `Matlab2020b` version. Previous versi
 
 * Double click `PfluorPbgfitting.mlapp` to open.
 
-![](figures/snap1.png){width=35%}
+![](snap1.png){width=35%}
 
 * Enter the path for the designated working directory under `Path to working directory`. This should be where the downloaded folder is saved. Example: `/Users/username/Documents/MATLAB/smPBfit/`
 
-![](figures/snap2.png){width=35%}
+![](snap2.png){width=35%}
 
 * Enter the name of the photobleaching file. This document should entail the mole fraction and the associated $P_1$, $P_2$, $P_{3+}$ and should be in a `.dat` format. Note only add the file name **without** the file extension (`.dat`). Example: `TestInputData.dat` should be entered as `TestInputData`.
 This file contains:
@@ -64,11 +64,11 @@ Here the columns show the mole fraction (subunit to lipid ratio), $P_1$, $P_2$ a
 
 Push `read in data` button. The photobleaching data should now be appearing in the table in the app display.
 
-![](figures/snap3.png){width=35%}
+![](snap3.png){width=35%}
 
 * Create an output folder by entering the desired output folder name under `output foldername` section. When `create` button is pushed, the folder will be created in the current working directory.
 
-![](figures/snap4.png){width=35%}
+![](snap4.png){width=35%}
 
 * Enter the user-set values for all parameters listed as follows:
 
@@ -86,7 +86,7 @@ Push `read in data` button. The photobleaching data should now be appearing in t
     
     - Yield: The protein to lipid recovery yield after the reconstitution process
 
-![](figures/snap5.png){width=35%}
+![](snap5.png){width=35%}
 	
 * Press `Fit`.
 
