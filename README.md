@@ -1,6 +1,6 @@
 # Description
 
-smPBfit is a Matlab code that contains two parts. In the first part, it performs an iterative fitting of the experimental dimeric photobleaching probability distribution to a dimer model of a membrane protein, while varying labeling parameters, to estimate the labeling yields. In the second part, it uses the average predicted labeling yield over multiple samples in order to estimate the dissociation constant of other reactive dimerization reactions of the membrane protein of interest. This method eliminates the need to quantify fluorophore labeling *a priori* and thus it can be generalized to study other dimerization reactions where an irreversible dimeric control can be prepared. 
+smPBfit contains two Matlab applications. The first one, named `PfluorPbgfitting.mlapp`, performs an iterative fitting of the experimental dimeric photobleaching probability distribution to an irreversible dimeric control of a membrane protein of interest, while varying labeling parameters, to estimate the labeling yields. The second one, named `KDfitting.mlapp`, uses the average predicted labeling yield over multiple samples in order to estimate the dissociation constant of other reactive dimerization reactions of the membrane protein of interest. smPBfit eliminates the need to quantify fluorophore labeling *a priori* and thus it can be generalized to study other dimerization reactions where an irreversible dimeric control can be prepared. 
 
 # Instructions
 
