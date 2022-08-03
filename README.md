@@ -158,7 +158,7 @@ Push `read in data` button. The photobleaching data should now be appearing in t
 
 <img src="figures/snap.2.5.png" alt="" width="300"/>
 
-* Press `Fit`.
+* Press `fit`.
 
 #### **Understanding the output files**
 `KDfitting.mlapp` will create 3 output files:
