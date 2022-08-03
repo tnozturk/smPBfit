@@ -1,7 +1,6 @@
 # Description
 
-smPBfit is a Matlab code that ...
-
+smPBfit is a Matlab code that contains two parts. In the first part, it performs an iterative fitting of the experimental dimeric photobleaching probability distribution to a dimer model of a membrane protein, while varying labeling parameters, to estimate the labeling yields. In the second part, it uses the average predicted labeling yield over multiple samples in order to estimate the dissociation constant of other reactive dimerization reactions of the membrane protein of interest. This method eliminates the need to quantify fluorophore labeling *a priori* and thus it can be generalized to study other dimerization reactions where an irreversible dimeric control can be prepared. 
 
 # Instructions
 
@@ -103,10 +102,13 @@ This Matlab app will create six output files:
 
 ### 3 - Estimate the $K_{D}$
 
-* Open `KDfitting.mlapp`
+* Open `KDfitting.mlapp` by double-clicking.
+
+<img src="figures/snap.2.1.png" alt="" width="300"/>
 
 * Insert the path to your working directory under Path to working directory. Example: `/Users/username/Documents/MATLAB/TITLE/`
 
+<img src="figures/snap.2.2.png" alt="" width="300"/>
 
 * Insert the name of your photobleaching file. This document should entail the mole fraction and the associated $P_1$, $P_2$, $P_{3+}$ and should be in a .dat format. Note please only add the file name, not the file extension (no .dat)
 Example: `KDFitting_TestData.dat` should be entered as
@@ -135,10 +137,13 @@ This file contains:
 7.5E-6	0.28	0.37	0.35
 ```
 
-* Push `read in data` button. The photobleaching data should now be appearing in the table in the app display
+Push `read in data` button. The photobleaching data should now be appearing in the table in the app display.
 
+<img src="figures/snap.2.3.png" alt="" width="300"/>
 
 * Create an output folder: under output folder name give your desired output folder a name and push create to make that folder. A new folder should show up in your working path directory. 
+
+<img src="figures/snap.2.4.png" alt="" width="300"/>
 
 * Indicate your parameters:
 
@@ -151,5 +156,12 @@ This file contains:
     - Smallest liposome radius: If the protein is large, indicate what the smallest liposome size radius is that allows for occupancy of the liposome by two subunits. 
     - Yield: The protein to lipid recovery yield after the reconstitution process
 
+<img src="figures/snap.2.5.png" alt="" width="300"/>
+
 * Press `Fit`.
 
+#### **Understanding the output files**
+`KDfitting.mlapp` will create 3 output files:
+1. `KD_output.png`
+2. `KD_output.txt`
+3. `KD_SSR_rawdata.dat`
