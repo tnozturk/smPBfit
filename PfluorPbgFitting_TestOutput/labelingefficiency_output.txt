@@ -1,0 +1,4 @@
+Pfluormax	Pfluormean	Pfluorstdmean	Pfluormode	Pfluorstdmode
+0.72    	0.74  	0.14  	0.72  	0.15  
+Pbgmax  	Pbgmean	Pbgstdmean	Pbgmode	Pbgstdmode
+0.10    	0.15  	0.09  	0.18  	0.09  
