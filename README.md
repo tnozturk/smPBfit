@@ -16,7 +16,7 @@ smPBfit contains two Matlab applications. The first one, named `PfluorPbgfitting
 
   * **radii**: The subfolder that contains radii distribution files. The radii distribution is the probability distribution of liposome sizes and is usually measured by an experimental technique such as cryo-EM. 
   
-  * `TestInputData.dat`: An example data file of the photobleaching distribution for a dimeric protein
+  * `TestInputData.dat`: An example data file of the photobleaching distribution for a dimeric protein, located in `input_test_data` subfolder
   
   * **TestOutput**: The subfolder that contains files generated when `PfluorPbgfitting.mlapp` is run using the `TestInputfile.dat` input file
   
